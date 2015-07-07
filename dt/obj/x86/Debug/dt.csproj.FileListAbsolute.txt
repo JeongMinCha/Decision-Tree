@@ -1,0 +1,5 @@
+Y:\Development\XamarinStudio\dt\dt\obj\x86\Debug\dt.exe
+Y:\Development\XamarinStudio\dt\dt\bin\Debug\dt.exe
+Y:\Development\XamarinStudio\dt\dt\bin\Debug\dt.pdb
+Y:\Development\XamarinStudio\dt\dt\obj\x86\Debug\dt.csprojResolveAssemblyReference.cache
+Y:\Development\XamarinStudio\dt\dt\obj\x86\Debug\dt.pdb
