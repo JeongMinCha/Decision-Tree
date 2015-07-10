@@ -22,15 +22,28 @@ The purpose of this project is to build **a decision tree** by using the **infor
 
 [attribute_1]\t[attribute_2]\t ... [attribute_n]\n
 
+
 * [attribute_name_1] ~ [attribute_name_n]: n attribute names* [attribute_1] ~ [attribute_n-1]	* n-1 attribute values of the corresponding tuple	* All the attributes are categorical (not continuous-valued)* [attribute_n]: a class label that the corresponding tuple belongs to
 
 #### File format for test set
-[attribute_name_1]\t[attribute_name_2]\t ... [attribute_name_n-1]\n [attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n [attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n [attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n
+[attribute_name_1]\t[attribute_name_2]\t ... [attribute_name_n-1]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n-1]\n
 
 * The test set does not have [attribute_name_n] (class label)
 
 #### File format for output file
-[attribute_name_1]\t[attribute_name_2]\t ... [attribute_name_n]\n [attribute_1]\t[attribute_2]\t ... [attribute_n]\n [attribute_1]\t[attribute_2]\t ... [attribute_n]\n [attribute_1]\t[attribute_2]\t ... [attribute_n]\n
+[attribute_name_1]\t[attribute_name_2]\t ... [attribute_name_n]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n]\n
+
+[attribute_1]\t[attribute_2]\t ... [attribute_n]\n
 
 * Output file name: dt_result.txt
 * You must print the following values:	* [attribute_1] ~ [attribute_n-1]: given attribute values in the test set	* [attribute_n]: a class label predicted by your model for the corresponding tuple
